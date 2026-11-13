@@ -11,10 +11,10 @@ A simple Java Web Application developed using HTML, Java Servlet, and JSP. The a
 - *IDE:* NetBeans
 
 ## Software & Hardware Requirements
-- *JDK**: JDK 8 or higher
-- *IDE**: Apache NetBeans IDE
-- *Web Server**: GlassFish Server
-- *Web Browser**: Google Chrome or Microsoft Edge
+- *JDK:* JDK 8 or higher
+- *IDE:* Apache NetBeans IDE
+- *Web Server:* GlassFish Server
+- *Web Browser:* Google Chrome or Microsoft Edge
 
 ## How to Run the Application
 1. Clone the repository:
