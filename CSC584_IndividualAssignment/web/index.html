@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile Form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Personal Profile Registration</h2>
+        <form action="ProfileServlet" method="post">
+            <div class="form-group">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="studentId">Student ID:</label>
+                <input type="text" id="studentId" name="studentId" required>
+            </div>
+
+            <div class="form-group">
+                <label for="programme">Programme:</label>
+                <input type="text" id="programme" name="programme" placeholder="e.g., CS230" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="hobbies">Hobbies:</label>
+                <input type="text" id="hobbies" name="hobbies" placeholder="e.g., Reading, Gaming, Football" required>
+            </div>
+
+            <div class="form-group">
+                <label for="bio">Short Self-Introduction:</label>
+                <textarea id="bio" name="bio" rows="4" required></textarea>
+            </div>
+
+            <button type="submit" class="btn">Submit Profile</button>
+        </form>
+    </div>
+</body>
+</html>
