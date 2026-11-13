@@ -19,4 +19,5 @@ A simple Java Web Application developed using HTML, Java Servlet, and JSP. The a
 ## How to Run the Application
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/your-username/CSC584-Individual-Assignment-1.git](https://github.com/your-username/CSC584-Individual-Assignment-1.git)
+   git clone [](https://github.com/your-username/CSC584-Individual-Assignment-1.git)
+
